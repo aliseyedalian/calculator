@@ -9,5 +9,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`node js app server listening at http://localhost:${port}`)
+  console.log(`node js calculator server listening at http://localhost:${port}`)
 })
