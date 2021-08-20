@@ -116,8 +116,6 @@ class Calc extends React.Component {
 	);
   }
 }
-ReactDOM.render(
-    <Calc/>
-,document.getElementById('root'));
+ReactDOM.render(<Calc/>,document.getElementById('root'));
 
 
