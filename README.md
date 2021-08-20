@@ -4,6 +4,8 @@ Author : Ali Seyedalian
 
 ![alt text](https://raw.githubusercontent.com/sedaliSedalian/calculator/master/image/demo.mp4)
 
+![alt text](https://raw.githubusercontent.com/sedaliSedalian/calculator/master/image/image.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
