@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
-
+import Draggable from 'react-draggable';
 
 
 class Calc extends React.Component {
@@ -79,6 +79,7 @@ class Calc extends React.Component {
 
   render() {
     return(
+      <Draggable>
 	    <div className="container">
         <p id="display">{this.state.display}</p>
         <div className="btns-box">
@@ -111,9 +112,12 @@ class Calc extends React.Component {
           </div>
         </div>
       </div>  
+      </Draggable>
 	);
   }
 }
-ReactDOM.render(<Calc />,document.getElementById('root'));
+ReactDOM.render(
+    <Calc/>
+,document.getElementById('root'));
 
 
